@@ -14,7 +14,8 @@ namespace ZWADotNetCore.ConsoleApp
             DataSource = ".", //server name
             InitialCatalog = "ZWADotNetCore", //database name
             UserID = "sa",
-            Password = "sa@123"
+            Password = "sa@123",
+            TrustServerCertificate = true
         };
     }
 }
