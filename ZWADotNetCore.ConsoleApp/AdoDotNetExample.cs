@@ -14,7 +14,7 @@ namespace ZWADotNetCore.ConsoleApp
     {
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
-            DataSource = "DESKTOP-775DARV", //server name
+            DataSource = ".", //server name
             InitialCatalog = "ZWADotNetCore", //database name
             UserID = "sa",
             Password = "sa@123"

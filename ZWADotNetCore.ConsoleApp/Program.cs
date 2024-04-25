@@ -6,7 +6,7 @@ using ZWADotNetCore.ConsoleApp;
 Console.WriteLine("Hello, World!");
 
 //SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
-//stringBuilder.DataSource = "DESKTOP-775DARV"; //server name
+//stringBuilder.DataSource = "."; //server name
 //stringBuilder.InitialCatalog = "ZWADotNetCore"; //database name
 //stringBuilder.UserID = "sa";
 //stringBuilder.Password = "sa@123";
@@ -39,12 +39,15 @@ Console.WriteLine("Hello, World!");
 
 // Ado.Net Read
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create("title", "author", "content");
 //adoDotNetExample.Update(12, "test title", "test author", "test content");
 //adoDotNetExample.Delete(12);
-adoDotNetExample.Edit(12);
-adoDotNetExample.Edit(1);
+//adoDotNetExample.Edit(12);
+//adoDotNetExample.Edit(1);
+
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
 
 Console.ReadKey();
