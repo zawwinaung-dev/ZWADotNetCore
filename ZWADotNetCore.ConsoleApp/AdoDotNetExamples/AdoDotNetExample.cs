@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Collections;
 using System.Reflection.Metadata;
 
-namespace ZWADotNetCore.ConsoleApp
+namespace ZWADotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
@@ -60,7 +60,7 @@ namespace ZWADotNetCore.ConsoleApp
 
             connection.Close();
 
-            if(dt.Rows.Count == 0)
+            if (dt.Rows.Count == 0)
             {
                 Console.WriteLine("No data found.");
                 return;

@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Data;
 using System.Data.SqlClient;
-using ZWADotNetCore.ConsoleApp;
+using ZWADotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 

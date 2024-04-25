@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ZWADotNetCore.ConsoleApp.Dtos;
 
-namespace ZWADotNetCore.ConsoleApp
+namespace ZWADotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {
@@ -79,7 +80,7 @@ namespace ZWADotNetCore.ConsoleApp
             item.BlogContent = content;
 
             int result = db.SaveChanges();
-            
+
             string message = result > 0 ? "Updating Successful." : "Updating Failed.";
             Console.WriteLine(message);
         }

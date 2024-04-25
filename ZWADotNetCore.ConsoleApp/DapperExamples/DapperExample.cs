@@ -7,8 +7,10 @@ using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+using ZWADotNetCore.ConsoleApp.Dtos;
+using ZWADotNetCore.ConsoleApp.Services;
 
-namespace ZWADotNetCore.ConsoleApp
+namespace ZWADotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {
@@ -104,7 +106,7 @@ namespace ZWADotNetCore.ConsoleApp
             Console.WriteLine(message);
         }
 
-        private void Delete(int id) 
+        private void Delete(int id)
         {
             var item = new BlogDto
             {

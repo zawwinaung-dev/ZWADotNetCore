@@ -6,19 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZWADotNetCore.ConsoleApp;
+namespace ZWADotNetCore.RestApi.Models;
 
 [Table("Tbl_Blog")]
-public class BlogDto
+public class BlogModel
 {
     [Key]
     public int BlogId { get; set; }
 
-    public string BlogTitle { get; set; }
+    public string? BlogTitle { get; set; }
 
-    public string BlogAuthor { get; set; }
+    public string? BlogAuthor { get; set; }
 
-    public string BlogContent { get; set; }
+    public string? BlogContent { get; set; }
 
 }
 

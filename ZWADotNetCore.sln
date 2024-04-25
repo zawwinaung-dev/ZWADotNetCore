@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZWADotNetCore.RestApi", "ZWADotNetCore.RestApi\ZWADotNetCore.RestApi.csproj", "{46404A06-A3BB-4F4D-BDE8-07C7D731431A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{E8177438-A00D-40F3-A191-D966DABC7B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8177438-A00D-40F3-A191-D966DABC7B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8177438-A00D-40F3-A191-D966DABC7B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
