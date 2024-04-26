@@ -8,9 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{5AC3C93E-828C-4B63-86D1-462BCD3B7465}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		ZWADotNetCore.sql = ZWADotNetCore.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZWADotNetCore.RestApi", "ZWADotNetCore.RestApi\ZWADotNetCore.RestApi.csproj", "{46404A06-A3BB-4F4D-BDE8-07C7D731431A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZWADotNetCore.RestApi", "ZWADotNetCore.RestApi\ZWADotNetCore.RestApi.csproj", "{46404A06-A3BB-4F4D-BDE8-07C7D731431A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
