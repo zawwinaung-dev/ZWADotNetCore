@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZWADotNetCore.RestApi", "ZWADotNetCore.RestApi\ZWADotNetCore.RestApi.csproj", "{46404A06-A3BB-4F4D-BDE8-07C7D731431A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZWADotNetCore.Shared", "ZWADotNetCore.Shared\ZWADotNetCore.Shared.csproj", "{4AF8993E-937C-4820-B3B6-D0923E70D7A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46404A06-A3BB-4F4D-BDE8-07C7D731431A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF8993E-937C-4820-B3B6-D0923E70D7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF8993E-937C-4820-B3B6-D0923E70D7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF8993E-937C-4820-B3B6-D0923E70D7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF8993E-937C-4820-B3B6-D0923E70D7A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
